@@ -1,0 +1,23 @@
+name: LiveNotifierCam
+options:
+  bundleIdPrefix: com.livenotifier
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  LiveNotifierCam:
+    type: application
+    platform: iOS
+    sources:
+      - path: LiveNotifierCam
+    info:
+      path: LiveNotifierCam/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.livenotifier.cam
+        PRODUCT_NAME: LiveNotifierCam
+        SWIFT_VERSION: "5.9"
+        CODE_SIGNING_ALLOWED: "NO"
+        CODE_SIGNING_REQUIRED: "NO"
+        CODE_SIGN_IDENTITY: ""
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: "NO"
